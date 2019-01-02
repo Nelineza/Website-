@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <title>Contact | Valentyna Dos Santos</title>
+    <link href="stylewebsite.css" rel="stylesheet" type="text/css">
+    <link href="stylecontact.css" rel="stylesheet" type="text/css">
+</head>
+
+<header>
+    <img src="Valentina.png" alt="Logo" style="width:150px;height:150px;">
+
+
+    <ul class="main-nav">
+        <li><a href="website_Valentyna%20Dos%20Santos.html">HOME</a></li>
+        <li><a href="aboutme.html">ABOUT ME</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li class="active"><a href="contact.html">CONTACT</a></li>
+        <li><a href="route.html">ROUTE</a></li>
+
+    </ul>
+
+    <h1>Makeup Artist Valentyna Dos Santos</h1>
+</header>
+
+<body>
+
+    <form id="regForm" action="/action_page.php">
+        <h1>Book me:</h1>
+        
+        <div class="tab">Name:
+            <p><input placeholder="First name..." oninput="this.className = ''" name="fname"></p>
+            <p><input placeholder="Last name..." oninput="this.className = ''" name="lname"></p>
+        </div>
+        <div class="tab">Contact Info:
+            <p><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
+            <p><input placeholder="Phone..." oninput="this.className = ''" name="phone"></p>
+        </div>
+        <div class="tab">Message:
+            <p><input placeholder="What type of look, when, requiries..." oninput="this.className = ''" name="message"></p>
+        </div>
+        <div style="overflow:auto;">
+            <div style="float:right;">
+
+                <button type="button" id="nextBtn" onclick="nextPrev(1)">Submit</button>
+            </div>
+        </div>
+      
+        <div style="text-align:center;margin-top:40px;">
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+        </div>
+    </form>
+    <div class="hidden form-submission-text">
+        <p>Danku! Ik contacteer u zo snel mogelijk.</p>
+
+    </div>
+
+</body>
+
+</html>
