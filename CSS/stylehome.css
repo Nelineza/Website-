@@ -1,6 +1,6 @@
 .home_slideshow {
-    margin: auto;
-  width: 20%;
+  display: flex;
+  justify-content: center;
     
 }
 .home_slideshow img {
@@ -8,10 +8,8 @@
   
   z-index: 3;
   animation: slideshow 12s linear 0s infinite;
-    height: 500px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+    height: 50%;
+    width: auto;
 }
 
 .home_slideshow img:nth-child(2) {
