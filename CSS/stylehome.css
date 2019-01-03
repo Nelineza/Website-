@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
     
+    
 }
 .home_slideshow img {
   position: absolute;
@@ -10,6 +11,9 @@
   animation: slideshow 12s linear 0s infinite;
     height: 50%;
     width: auto;
+    
+    /* w3schools, cards shadow */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .home_slideshow img:nth-child(2) {
