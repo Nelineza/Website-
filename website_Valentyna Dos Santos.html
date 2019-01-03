@@ -3,74 +3,45 @@
 
 <head>
     <title>Makeup Artist Valentyna Dos Santos</title>
-
-    <link href="stylewebsite.css" rel="stylesheet" type="text/css">
-
-
+    <link href="CSS/stylewebsite.css" rel="stylesheet" type="text/css">
+    <link href="CSS/stylehome.css" rel="stylesheet" type="text/css">
+    <!-- Style social media buttons, w3schools -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<a href="https://www.instagram.com/valentynadossantos.makeup/">
-    <i class="fa fa-instagram"></i>
-</a>
 
-<a href="https://www.facebook.com/ValentynaDossantosMakeup/">
-    <i class="fa fa-facebook-square"></i>
-</a>
-
-<a href="https://www.youtube.com/channel/UCQyp_0SFnuNSGk9CbuPtVPw">
-    <i class="fa fa-youtube"></i>
-</a>
-
-<header>
-    <img src="Valentina.png" alt="Logo" style="width:150px;height:150px;">
-    <h1>Makeup Artist Valentyna Dos Santos</h1>
-
-    <div class="row">
-        <ul class="main-nav">
-            <li class="active"><a href="website_Valentyna%20Dos%20Santos.html">HOME</a></li>
+<header class="header">
+    <img class="logo_image" src="Fotos/Valentina.png">
+    <div class="">
+        <ul class="nav_bar">
+            <li class="active"><a href="">HOME</a></li>
             <li><a href="aboutme.html">ABOUT ME</a></li>
             <li><a href="portfolio.html">PORTFOLIO</a></li>
             <li><a href="contact.html">CONTACT</a></li>
             <li><a href="route.html">ROUTE</a></li>
-
         </ul>
-
     </div>
-
+    
 </header>
 
-<body backround="makeup_backround.jpg">
+<body>
+    <div class="title">
+        <h1 class="">Makeup Artist Valentyna Dos Santos</h1>
 
-    <div class="home_slideshow">
-        <img class="slideshow_image" src="bodymakeup.jpg">
-        <img class="slideshow_image" src="32929965_1335214776654866_6823410295432544256_n.jpg">
-        <img class="slideshow_image" src="35142854_1348018065374537_5398165345745764352_n.jpg">
+        <a href="https://www.instagram.com/valentynadossantos.makeup/" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/ValentynaDossantosMakeup/" class="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/channel/UCQyp_0SFnuNSGk9CbuPtVPw" class="fa fa-youtube"></a>
     </div>
-
-    <script>
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("slideshow_image");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            myIndex++;
-            if (myIndex > x.length) {
-                myIndex = 1
-            }
-            x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 2000); // Change image every 2 seconds
-        }
-
-    </script>
+    <div class="home_slideshow">
+        <img src="Fotos/bodymakeup.jpg">
+        <img src="Fotos/32929965_1335214776654866_6823410295432544256_n.jpg">
+        <img src="Fotos/35142854_1348018065374537_5398165345745764352_n.jpg">
+    </div>
 
 
 </body>
-
-
-
+<footer>    
+    <a href="">Copyright &#169;</a>
+</footer>
 
 </html>
