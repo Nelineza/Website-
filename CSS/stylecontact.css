@@ -2,3 +2,37 @@ body {
     margin-left: 120px;
     margin-bottom: 50px;
 }
+
+
+h1 {
+  text-align: left;  
+}
+
+button {
+  background-color: plum;
+  color: blueviolet;
+  border: 1px;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: 'Raleway';
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.form regForm {
+    border: 2px;
+}
+
+.info {
+    font-size: 20px;
+    font: 'Arapey';
+   }
+
+.mainarea {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 'forms adress'; 
+}
