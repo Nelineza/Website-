@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.h1 {
+    margin-bottom: 100px;
+}
+
+.float-layout {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sidebar {
+    background: lightblue;
+}
+
+.main {
+    background: lightgreen;
+    float: left;
+    width: 50%;
+}
+
+.footer {
+    background: lightgrey;
+    clear: both;
+}
+
+.sidebar--left {
+    float: left;
+    width: 20%;
+}
+
+.sidebar--right {
+    float: right;
+    width: 20%;
+}
